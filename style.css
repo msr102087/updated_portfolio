@@ -1,0 +1,78 @@
+
+/* All Page Formatting */
+
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+  .bg-navbar {
+      background: #FFE4C4;
+  }
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#FFE4C4;
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+/* About Me Formatting */
+
+
+#about-img {
+    float: left;
+    padding-right: 50px ;
+    margin: 0 20px 10px 0s
+    
+}
+
+.block {
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+/* Portfolio Page Formatting */
+
+.image {
+    margin: 20px auto;
+}
+
+/* Contact Me Formatting */
+
+.main-form {
+    width: 500px;
+    margin: center;
+}
+
+.btn {
+    background-color: lightgray;
+    color: black;
+}
